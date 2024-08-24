@@ -1,0 +1,13 @@
+function hasilnyaAdalahFunction() {
+    const rand = Math.random();
+    if (rand > 0.1) {
+        return function() {
+            console.log('Selamat, angka anda lebih besar');
+        };
+    } else {
+        return function() {
+            console.log('Yahhhh, angka anda lebih kecil');
+        };
+    }
+}
+const result = hasilnyaAdalahFunction()
