@@ -1,0 +1,15 @@
+function hasilnyaAdalahFunction() {
+    
+    return function() {
+        const rand = Math.random();
+    if (rand > 0.45) {
+        
+            console.log(rand)
+            console.log('Selamat, angka anda lebih besar');
+        } else {
+            console.log(rand)
+            console.log('Yahhhh, angka anda lebih kecil');
+        }
+    }
+}
+const result = hasilnyaAdalahFunction()
